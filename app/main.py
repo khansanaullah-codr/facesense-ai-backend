@@ -3,9 +3,9 @@ from fastapi import FastAPI, UploadFile, File
 import numpy as np
 import cv2
 
-from image_processing import preprocess_face
-from predictor import predict_emotion
-from face_detector import detect_face
+from app.image_processing import preprocess_face
+from app.predictor import predict_emotion
+from app.face_detector import detect_face
 
 
 app = FastAPI(
