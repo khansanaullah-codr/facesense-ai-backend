@@ -12,12 +12,11 @@ app = FastAPI(
     title="Face Emotion Recognition API"
 )
 
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://facesense-rkrqcsox6-sanaullah-khans-projects-dc1205d6.vercel.app",
+        "https://facesense-ai.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
