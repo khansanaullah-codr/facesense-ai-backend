@@ -1,7 +1,7 @@
 import numpy as np
 
-from model_loader import model
-from emotion_labels import EMOTIONS
+from app.model_loader import model
+from app.emotion_labels import EMOTIONS
 
 
 def predict_emotion(face):
